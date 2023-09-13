@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма</title>
+  </head>
+  <body>
+    <h1>Лабораторна робота №1</h1>
+    <h2>Робота з формами</h2>
+    <h2>Виконала студентка групи КН-32, Позняк Х. М.</h2>
+    <h3>Варіант 10</h3>
+
+    <a href="main_page.html">На головну</a>
+    <h3>Завдання</h3>
+    <p>
+      Необхідно розробити форму для реєстрації студента у веб-системі. Необхідно
+      заповнити наступні данні: основні дані про студента, включають ПІБ, назву
+      групи (вибирається із списку), форму навчання(бюджет або контакт)
+      реалізується у вигляді перемикача, коротку інформацію про студента,
+      електрона адреса студента;
+    </p>
+
+    <form style="margin-top: 4%; width: 40%">
+      <fieldset>
+        <legend>Форма реаєстрації</legend>
+        <label>
+          ПІБ
+          <input id="pib" type="text" />
+        </label>
+        <label style="margin-left: 5%">
+          Назва групи
+          <select>
+            <option>Анд-11</option>
+            <option>Кн-11</option>
+            <option>Кн-12</option>
+            <option>Анд-21</option>
+            <option>Кн-21</option>
+            <option>Кн-22</option>
+            <option>Анд-31</option>
+            <option>Кн-31</option>
+            <option>Кн-32</option>
+            <option>Анд-41</option>
+            <option>Кн-41</option>
+            <option>Кн-42</option>
+          </select>
+        </label>
+        <label style="margin-left: 5%">
+          Бюджет
+          <input type="radio" name="test" checked value="1" />
+          <input type="radio" name="test" value="2" />
+          Контакт
+        </label>
+        <div style="margin-top: 3%">
+          <label
+            >Інформація про студента
+            <textarea name="info" cols="100" rows="8"></textarea>
+          </label>
+        </div>
+        <div style="margin-top: 3%">
+          <label>
+            Email студента
+            <input type="text" />
+          </label>
+          <label>
+            Телефон студента
+            <input type="text" />
+          </label>
+        </div>
+        <div style="margin-top: 3%">
+          <button>Відправити форму</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
