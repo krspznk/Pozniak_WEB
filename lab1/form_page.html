@@ -21,8 +21,8 @@
       електрона адреса студента;
     </p>
 
-    <form style="margin-top: 4%; width: 40%">
-      <fieldset>
+    <form>
+      <fieldset style="width: 800px;">
         <legend>Форма реаєстрації</legend>
         <label>
           ПІБ
@@ -67,10 +67,54 @@
             <input type="text" />
           </label>
         </div>
-        <div style="margin-top: 3%">
-          <button>Відправити форму</button>
-        </div>
+        
       </fieldset>
+      <fieldset style="width: 800px;">
+        <legend>Особисті данні</legend>
+        <label>
+          Номер паспорта
+          <input id="passport" type="text" />
+        </label>
+        <label>
+          Індифікаційний код 
+          <input id="inp" type="number" min = "10000000000" max="9999999999"/>
+        </label>
+        <div style="margin-top: 3%">
+          <label style="margin-left: 5%">
+            Рік народження
+            <select>
+              <option>1990</option>
+              <option>1991</option>
+              <option>1992</option>
+              <option>1993</option>
+              <option>1994</option>
+              <option>1995</option>
+              <option>1996</option>
+              <option>1997</option>
+              <option>1998</option>
+              <option>1999</option>
+              <option>2000</option>
+              <option>2001</option>
+              <option>2002</option>
+              <option>2003</option>
+              <option>2004</option>
+              <option>2005</option>
+              <option>2006</option>
+              <option>2007</option>
+
+
+            </select>
+          </label>
+          <label style="margin-left: 5%">
+            Жінка
+            <input type="radio" name="sex" checked value="1" />
+            <input type="radio" name="sex" value="2" />
+            Чоловік
+          </label>
+        </div>
+        
+      </fieldset>
+        <button type="submit" style="margin-top: 3%">Відправити форму</button>
     </form>
   </body>
 </html>
