@@ -7,9 +7,6 @@ a{
     color :#3e1900;
 }
 
-span{
-    font-weight: bold;
-}
 .p_grey_bold{
     color: #3b3b3b;
     font-weight: bold;
@@ -17,6 +14,9 @@ span{
 .p_grey_italic{
     color: #3b3b3b;
     font-style: italic;
+}
+.blueColor{
+    color: #2600ff;
 }
 .img_left{
     float: left;
