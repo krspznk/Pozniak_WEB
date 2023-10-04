@@ -1,0 +1,22 @@
+.infobar {
+    background: var(--color-light-blue);
+    width: 1340px;
+    height: 470px;
+    padding: 30px;
+    margin-left: 70px;
+    margin-top: 15px;
+
+
+}
+
+.infobar_text {
+    display : inline - block ;
+    font-size: var(--font_size-text) ;
+    font-family: var(--font-family-text) ;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 1.5; 
+    margin-left: 30px;
+
+}

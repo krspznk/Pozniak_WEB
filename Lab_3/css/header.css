@@ -1,4 +1,17 @@
 .header {
     height: var(--height1);
-    width: var(--width1);
+
 }
+.header_h1 {
+    display : inline - block ;
+    font-size: var(--font-size-h1) ;
+    font-family: var(--font-family-text) ;
+    width: 1400px;
+    color: var(--color-blue-font) ;
+    text-align: center;
+    position : absolute ;
+    margin-left: 70px;
+    margin-top: 0px;
+    line-height: 100px;
+    background-color: var(--color-light-blue) ;
+   }

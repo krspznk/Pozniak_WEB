@@ -1,3 +1,156 @@
 .content {
-    width: var(--width1);
+    width: 1390px;
+}
+
+.content_box_bio{
+    border: 5px solid var(--color-light-blue);
+    margin-left: 70px;
+    width: 1390px;
+    height: 1800px;
+    
+}
+
+
+.content_h2{
+    margin-top: 7px;
+
+    display : inline - block ;
+    font-size: var(--font-size-h2) ;
+    font-family: var(--font-family-text) ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content_photo_first {
+    background: url(../src/first.jpg) lightgray;
+    background-size: cover;
+    margin-left: 37px;
+    margin-top: 7px;
+    width: 30%;
+    height:  450px; 
+    display: flex;
+}
+
+.content_photo_second {
+    background: url(../src/second.jpg) lightgray;
+    background-size: cover;
+    margin-left: 947px;
+    margin-top: 20px;
+    width: 30%;
+    height:  750px; 
+    display: flex;
+}
+.content_photo_third {
+    background: url(../src/third.jpg) lightgray;
+    background-size: cover;
+    margin-left: 37px;
+    margin-top: 34px;
+    width: 30%;
+    height:  490px; 
+    display: flex;
+}
+
+.content_text_second {
+    margin-left: 37px;
+    margin-top: -650px;
+    padding: 30px;
+    width: 771px;
+    display : inline - block ;
+    font-size: var(--font_size-text) ;
+    font-family: var(--font-family-text) ;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 1.5; 
+
+}
+.content_text_first {
+    background: var(--color-light-blue);
+    margin-left: 500px;
+    margin-top: -450px;
+    padding: 50px;
+    width: 764px;
+    height: 350px;
+    display : inline - block ;
+    font-size: var(--font_size-text) ;
+    font-family: var(--font-family-text) ;
+    text-align: left;
+    line-height: 1.2; 
+
+}
+
+.content_text_third {
+    background: var(--color-light-blue);
+    margin-left: 500px;
+    margin-top: -490px;
+    padding: 20px;
+    width: 827px;
+    height: 450px;
+    display : inline - block ;
+    font-size: var(--font_size-text) ;
+    font-family: var(--font-family-text) ;
+    text-align: left;
+    line-height: 1.5; 
+
+}
+
+.content_box_lectures{
+    border: 5px solid var(--color-light-blue);
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 1390px;
+    height: 350px;
+    
+}
+
+.content_text_lectures {
+    padding: 30px;
+    display : inline - block ;
+    font-size: var(--font_size-text) ;
+    font-family: var(--font-family-text) ;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 1.5; 
+
+}
+
+.content_box_rozklad{
+    border: 5px solid var(--color-light-blue);
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 1390px;
+    height: 750px;
+    
+}
+
+.content_photo_rozklad {
+    background: url(../src/rozklad.jpg) lightgray;
+    background-size: cover;
+    margin-left: 37px;
+    margin-top: 7px;
+    width: 95%;
+    height:  650px; 
+}
+
+.content_box_won{
+    border: 5px solid var(--color-light-blue);
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 1390px;
+    height: 300px;
+    
+}
+
+.content_text_won {
+    padding: 30px;
+    display : inline - block ;
+    font-size: var(--font_size-text) ;
+    font-family: var(--font-family-text) ;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 1.5; 
+    margin-left: 30px;
+
 }

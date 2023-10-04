@@ -9,18 +9,20 @@
 
 :root{
     --color-light-blue: #C6DAF8;
-    --color-write: #FFFFFF;
+    --color-white: #FFFFFF;
     --color-blue: #306DC5;
     --color-blue-font: #041E43;
+    --color-footer: #306DC5;
 
     --font-family-text: "AnonymousPro";
     --font-size-h1: 48px;
     --font-size-h2: 40px;
-    --font-size-menu: 32px;
+    --font-size-menu: 28px;
     --font_size-text: 24px;
-    --font-size-sidebar: 20px;
+    --font-size-footer: 20px;
 
     --width: 1440px;
+    --height: 4000px;
     --width-menu: 800px;
     --height1: 115px;
     --width1: 1250px;
