@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
+
+@font-face {
+    font-family: "AnonymousPro";
+    src: url("../fonts/AnonymousPro-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --color-light-blue: #C6DAF8;
+    --color-write: #FFFFFF;
+    --color-blue: #306DC5;
+    --color-blue-font: #041E43;
+
+    --font-family-text: "AnonymousPro";
+    --font-size-h1: 48px;
+    --font-size-h2: 40px;
+    --font-size-menu: 32px;
+    --font_size-text: 24px;
+    --font-size-sidebar: 20px;
+
+    --width: 1440px;
+    --width-menu: 800px;
+    --height1: 115px;
+    --width1: 1250px;
+    --padding-left: 190;
+    --rot: rotate(90deg);
+}
