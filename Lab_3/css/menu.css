@@ -1,32 +1,23 @@
+
+
 .menu {
     height: var(--height1);
     width: var(--width1);
-    transform: var(--rot)
+    transform: var(--rot);
+    padding-left: 120px;
+    font-size: var(--font-size-menu) ;
+    font-weight : bold ;
+    padding-top : 100px ;
 }
-.menu {
-    height : var ( -- heigth - menu ) ;
-   / * вiдступ злiва * /
-   padding-left : var (padding-left;) ;
-   font-family : var(--font-family-text) ;
-   font - size : var ( -- font - size - menu ) ;
-   font - weight : bold ;
-   padding - top : 35px ;
-  }
-  / * стилi для елементів списку , які вміщують пункти меню * /
-  .menu ul li {
-   / * Розмiщуємо пункти у один рядок * /
-   display : inline - block ;
-   / * Задаємо відступи між пунктами меню * /
-   padding - right : 30px ;
-  }
-  / * Стилi для окремого пункту * /
-  .menu ul li a {
-   color : var ( -- color - ligth - grey ) ;
-  }
-  }
-  / * Зміни при наведені * /
-  .menu ul li a : hover {
-    / * змiнюємо колiр * /
-   color : var ( -- color - grey ) ;
-    / * Додаємо підкреслення * /
-   text - decoration : underline ;
+
+.menu ul li {
+display : inline-block ;
+padding-left: 35px ;
+}
+.menu ul li a {
+color: var(--color-write) ;
+}
+.menu ul li a:hover {
+color : var(--color-light-blue) ;
+text-decoration : underline ;
+}
