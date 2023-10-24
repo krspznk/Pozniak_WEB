@@ -1,0 +1,18 @@
+@import "./index.css";
+@import "./c_footer.css";
+@import "./footer.css";
+@import "./content.css";
+@import "./content2.css";
+@import "./header.css";
+@import "./menu.css";
+@import "./smenu.css";
+@import "./media.css";
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+

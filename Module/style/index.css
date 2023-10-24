@@ -1,0 +1,22 @@
+@import "./setting.css";
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.2fr 1.8fr 1fr;
+  grid-template-areas:
+    'header header header'
+    'menu smenu smenu'
+    'menu content content2'
+    'menu с_footer content2'
+    'footer footer footer ';
+  gap: 5px;
+  background-color: rgb(19, 73, 11);
+  padding: 10px;
+}
+
+.grid-container>div {
+  text-align: center;
+
+}

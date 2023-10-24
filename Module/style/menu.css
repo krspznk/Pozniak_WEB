@@ -1,0 +1,33 @@
+@import "./setting.css";
+
+
+.menu {
+    grid-area: menu;
+    display: flex;
+    writing-mode: vertical-rl; 
+    text-orientation: upright;
+    position: fixed;
+    top: 60px;
+    padding: 10px 0;
+    margin-left: 20px;
+  
+  }
+  
+  .menu li {
+    display: inline;
+    }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    transition: color 1s ease;
+    padding: 15px;
+    font-size: 13.5px;
+  }
+  
+  .menu li a:hover {
+    font-weight: bold;
+    background-color: #ffffff;
+    color: var(--color-green);
+    }
+  

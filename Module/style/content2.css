@@ -1,0 +1,24 @@
+@import "./setting.css";
+.content2 {
+    grid-area: content2;
+    background-color: white;  
+    border: 5px solid var(--color-green);
+  
+  }
+  .title1{
+    font-size: 30px;
+  }
+  .text1{
+    font-size: 20px;
+  }
+  .photo1{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-top: 15px;
+
+    margin-right: 20px;
+    max-height: 100%;
+    max-width: 100%;
+  }

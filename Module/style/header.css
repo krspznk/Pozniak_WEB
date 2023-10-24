@@ -1,0 +1,45 @@
+@import "./setting.css";
+
+
+.header {
+    grid-area: header;
+    height: 50px;
+    padding: 5px 0;
+    background: url(../src/header_photo.jpg);
+    background-size: cover;
+    background-position: center center;
+
+  }
+  
+  .header-text{
+    font-size: 40px;
+    color: white;
+    margin-top: -45px;
+    margin-left: 500px;
+  }
+  
+  .search-box {
+    display: flex;
+    position: relative;
+    width: 210px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    margin-left: 37px;
+    margin-top: 5px;
+  }
+  
+  .search-input {
+    width: 85%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    padding: 0 16px;
+    color:#ffffff;
+    font-size: 16px;
+  }
+  
+  
+  

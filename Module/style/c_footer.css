@@ -1,0 +1,13 @@
+@import "./setting.css";
+
+
+.с_footer {
+    grid-area: с_footer;
+    background-color: white;  
+  
+    padding: 20px 0;
+    color: black;
+    font-size: 15px;
+  
+  
+  }

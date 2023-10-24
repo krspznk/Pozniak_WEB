@@ -1,0 +1,24 @@
+@import "./setting.css";
+
+
+.smenu {
+    grid-area: smenu;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.smenuElement {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.smenuIcon {
+    height: 30px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+  

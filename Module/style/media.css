@@ -1,0 +1,112 @@
+@media (max-width: 960px) {
+    .header .header-text {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 760px) {
+    .header {
+        height: 25px;
+    }
+
+    .header .header-text {
+        margin-left: 200px;
+        margin-top: -30px;
+        font-size: 30px;
+    }
+
+    .search-box {
+        width: 150px;
+        height: 25px;
+        margin-left: 15px;
+        margin-top: -3px;
+    }
+
+    .smenu {
+        padding: 10px;
+    }
+
+    .content .title {
+        font-size: 20px;
+    }
+
+    .content .about {
+        font-size: 15px;
+    }
+
+    .content .photo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .content2 .title1 {
+        font-size: 20px;
+    }
+
+    .content2 .text1 {
+        font-size: 15px;
+    }
+
+    .content2 .photo1 {
+        width: 120px;
+        height: 120px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .menu {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 545px) {
+    .grid-container {
+        grid-template-columns: 0.2fr 1.8fr;
+        grid-template-areas:
+            'header header'
+            'menu smenu'
+            'menu content'
+            'menu с_footer'
+            'menu content2'
+            'footer footer';
+        gap: 2px;
+    }
+
+    .header {
+        height: 25px;
+    }
+
+    .header .header-text {
+        margin-left: 100px;
+        margin-top: -20px;
+        font-size: 20px;
+    }
+
+    .search-box {
+        width: 80px;
+        height: 20px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+
+    .search-input {
+        font-size: 12px;
+    }
+
+    .smenu {
+        padding: 5px;
+    }
+
+    .smenu .smenuIcon {
+        height: 20px;
+    }
+
+    .smenu .smenuElement {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .menu {
+        margin-left: 5px;
+    }
+}
