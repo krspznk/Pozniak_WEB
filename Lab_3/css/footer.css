@@ -1,8 +1,8 @@
 .footer {
-    width: 1900px ;
+    width: 1580px ;
     height: 115px;
     background: var(--color-footer);
-    margin-left: -100px;
+    margin-left: -99px;
 }
 
 .footer_text {

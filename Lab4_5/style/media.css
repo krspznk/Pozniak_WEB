@@ -1,0 +1,95 @@
+@import "./variables.css";
+
+.menu .dropup-content a:nth-child(1) {
+    display: none;
+}
+
+/* Медіа-запит для ширини до 1154px */
+@media (max-width: 1184px) {
+    .menu .xbox {
+        margin-left: 20px;
+    }
+
+    .menu .menuElements {
+        margin-right: 20px;
+    }
+    .content {
+        .main_text{
+        margin-left: 600px;
+        }
+        .button1{
+            margin-left: 600px;
+        }
+        .button2 {
+            margin-left: 749px;  }
+}
+}
+
+@media (max-width: 937px) {
+
+    .content {
+        .main_text{
+        margin-left:300px;
+        }
+        .button1{
+            margin-left: 300px;
+        }
+        .button2 {
+            margin-left: 449px;  }
+}
+}
+
+
+@media (max-width: 901px) {
+    .menu .menuElements .menuElement {
+        display: none;
+    }
+
+    .menu .down-arrow_xbox {
+        display: flex;
+    }
+
+    .menu .xbox {
+        display: none;
+    }
+
+    .dropup .dropbtn {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .content {
+        .main_text{
+        margin-left:20px;
+        }
+        .button1{
+            margin-left: 20px;
+        }
+        .button2 {
+            margin-left: 169px;  }
+}
+}
+
+@media (max-width: 565px) {
+    .menu .menuElements .userElement {
+        display: none;
+    }
+
+    .menu .dropbtn {
+        margin-left: 10px;
+    }
+
+    .menu .dropup-content a:nth-child(1) {
+        display: flex; 
+    }
+}
+
+/* Медіа-запит для ширини до 385px */
+@media (max-width: 385px) {
+    .menu .search-box {
+        width: 150px;
+    }
+}
