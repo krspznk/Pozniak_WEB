@@ -1,0 +1,294 @@
+@import "./settings.css";
+
+.content_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    font-family: Montserrat;
+
+    grid-template-areas:
+        "Content Content"
+        "Button1 Button2"
+        "Photo Photo"
+        "Text-Content Photo-Content"
+        "Photo-Content2 Text-Content2"
+        "Content2 Content2"
+        "Button3 Button4"
+        "Footer Footer";
+}
+
+
+.Content {
+    grid-area: Content;
+
+    .Content-text {
+        font-size: 36px;
+        color: #435766;
+        margin-top: 99px;
+        text-align: center;
+    }
+}
+
+.Button1 {
+    grid-area: Button1;
+    margin-top: 208px;
+    width: 170px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--green);
+    color: var(--white);
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 52px;
+    border-width: 0;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.Button1 :hover {
+    background: #478e00;
+}
+
+.Button2 {
+    grid-area: Button2;
+    margin-top: 208px;
+
+    width: 235px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--grey);
+    color: var(--white);
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 52px;
+    border-width: 0;
+    margin-left: 10px;
+
+}
+
+.Button2:hover {
+    background: #2c2c2c;
+}
+
+.Photo {
+    grid-area: Photo;
+    display: flex;
+    margin-top: 103px;
+    justify-content: center;
+    align-items: center;
+
+    .photo1 {
+        width: 890px;
+        height: 582px;
+        object-fit: cover;
+        align-items: center;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+.Text-Content {
+    grid-area: Text-Content;
+    font-size: 36px;
+    margin-left: 172px;
+    margin-top: 118px;
+
+}
+
+.Text-Content2 {
+    grid-area: Text-Content2;
+    font-size: 36px;
+    margin-right: 229px;
+    margin-top: 117px;
+
+}
+
+.Photo-Content {
+    grid-area: Photo-Content;
+
+    .photo1 {
+        width: 524px;
+        height: 359px;
+        object-fit: cover;
+        max-height: 100%;
+        max-width: 100%;
+        margin-right: 164px;
+        margin-top: 98px;
+    }
+}
+
+.Photo-Content2 {
+    grid-area: Photo-Content2;
+
+    .photo1 {
+        width: 524px;
+        height: 359px;
+        object-fit: cover;
+        max-height: 100%;
+        max-width: 100%;
+        margin-left: 164px;
+        margin-top: 97px;
+    }
+}
+
+.Content2 {
+    grid-area: Content2;
+    margin-top: 105px;
+
+    .title {
+        font-size: 36px;
+        color: #435766;
+        text-align: center;
+    }
+
+    .content2 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 163px;
+        margin-right: 147px;
+        margin-top: 47px;
+        height: 100%;
+        .text {
+            color: #435766;
+            margin-left: 63px;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+
+}
+
+.Button3 {
+    grid-area: Button3;
+    margin-top: 80px;
+
+    width: 235px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--grey);
+    color: var(--white);
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 52px;
+    border-width: 0;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.Button3 :hover {
+    background: #2c2c2c;
+
+}
+
+.Button4 {
+    margin-top: 80px;
+
+    grid-area: Button4;
+    width: 235px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--grey);
+    background: var(--green);
+
+    color: var(--white);
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 52px;
+    border-width: 0;
+    margin-left: 10px;
+
+}
+
+.Button4:hover {
+    background: #478e00;
+}
+
+
+.Footer {
+    grid-area: Footer;
+    background: #373A3C;
+    margin-top: 109px;
+    width: 100%;
+
+    .content-footer {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 165px;
+        margin-top: 47px;
+        .title-footer {
+            margin-top: 58px;
+            color: #7DD42F;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            display: grid;
+        }
+
+        .text-footer {
+            margin-top: 34px;
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .photos {
+            width: 91px;
+            height: 20px;
+            object-fit: cover;
+            max-height: 100%;
+            max-width: 100%;
+            margin-right: 165px;
+            margin-top: -50px;
+        }
+    }
+
+    .line {
+        background-color: #FFF;
+        height: 1px;
+        margin-top: 38px;
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+
+    .main-footer {
+        display: flex;
+        margin-top: 32px;
+        margin-bottom: 38px;
+        justify-content: space-between;
+
+        .country {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: #FFF;
+            margin-left: 100px;
+        }
+
+        .year {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: #FFF;
+            margin-right: 100px;
+        }
+    }
+
+}

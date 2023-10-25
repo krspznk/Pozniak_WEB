@@ -4,7 +4,47 @@
     display: none;
 }
 
-/* Медіа-запит для ширини до 1154px */
+@media (max-width: 1387px) {
+
+    .Photo {
+        .photo1 {
+            width: 623px;
+            height: 407px;
+        }
+    }
+
+    .Text-Content {
+        margin-left: 100px;
+        margin-top: 118px;
+
+    }
+
+    .Text-Content2 {
+        margin-right: 100px;
+        margin-top: 117px;
+
+    }
+
+    .Photo-Content {
+        .photo1 {
+            width: 367px;
+            height: 251px;
+
+            margin-right: 100px;
+        }
+    }
+
+    .Photo-Content2 {
+
+        .photo1 {
+            width: 367px;
+            height: 251px;
+            margin-left: 100px;
+        }
+    }
+}
+
+
 @media (max-width: 1184px) {
     .menu .xbox {
         margin-left: 20px;
@@ -13,31 +53,123 @@
     .menu .menuElements {
         margin-right: 20px;
     }
+
     .content {
-        .main_text{
-        margin-left: 600px;
-        }
-        .button1{
+        .main_text {
             margin-left: 600px;
         }
+
+        .button1 {
+            margin-left: 600px;
+        }
+
         .button2 {
-            margin-left: 749px;  }
-}
+            margin-left: 749px;
+        }
+    }
 }
 
 @media (max-width: 937px) {
+    .Photo {
+        .photo1 {
+            width: 623px;
+            height: 407px;
+        }
+    }
+
+    .Text-Content {
+        margin-left: 50px;
+        margin-top: 118px;
+        font-size: 30px;
+
+
+    }
+
+    .Text-Content2 {
+        margin-right: 50px;
+        margin-top: 117px;
+        font-size: 30px;
+
+    }
+
+    .Photo-Content {
+        .photo1 {
+            width: 311px;
+            height: 213px;
+            margin-right: 50px;
+        }
+    }
+
+    .Photo-Content2 {
+
+        .photo1 {
+            width: 311px;
+            height: 213px;
+            margin-left: 50px;
+        }
+    }
+
+    .Content2 {
+        .content2 {
+
+            margin-left: 100px;
+            margin-right: 100px;
+
+
+        }
+    }
+
+
+
+    .Footer {
+
+
+        .content-footer {
+            margin-left: 150px;
+
+            .title-footer {
+
+                font-size: 15px;
+            }
+
+            .text-footer {
+                font-size: 12px;
+
+            }
+
+            .photos {
+                width: 80px;
+                height: 18px;
+            }
+        }
+
+    }
+
+
+
 
     .content {
-        .main_text{
-        margin-left:300px;
-        }
-        .button1{
+        .main_text {
             margin-left: 300px;
         }
+
+        .button1 {
+            margin-left: 300px;
+        }
+
         .button2 {
-            margin-left: 449px;  }
+            margin-left: 449px;
+        }
+    }
+
+
 }
-}
+
+
+
+
+
+
 
 
 @media (max-width: 901px) {
@@ -59,18 +191,113 @@
 
 }
 
+@media (max-width: 742px) {
+
+    .content_grid {
+        grid-template-areas:
+            "Content Content"
+            "Button1 Button2"
+            "Photo Photo"
+            "Photo-Content Photo-Content"
+            "Text-Content Text-Content"
+            "Photo-Content2 Photo-Content2"
+            "Text-Content2 Text-Content2"
+            "Content2 Content2"
+            "Button3 Button4"
+            "Footer Footer";
+    }
+
+
+    .Text-Content {
+        margin-left: 0px;
+        margin-top: 60px;
+        text-align: center;
+
+        font-size: 26px;
+
+    }
+
+    .Text-Content2 {
+        margin-left: 0px;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 26px;
+
+
+    }
+
+    .Photo-Content {
+        align-items: center;
+
+        .photo1 {
+            margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            align-items: center;
+            display: block;
+        }
+    }
+
+    .Photo-Content2 {
+        align-items: center;
+
+        .photo1 {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 60px;
+            justify-content: center;
+            align-items: center;
+            display: block;
+
+        }
+    }
+    .Photo {
+        .photo1 {
+            width: 498px;
+            height: 325px;
+        }
+    }
+
+    .Content2 {
+        .title {
+            font-size: 26px;
+
+        }
+    
+        .content2 {
+            margin-left: 20px;
+
+            .text {
+                margin-left: 15px;
+                margin-right: 15px;
+
+                font-size: 15px;
+
+            }
+        }
+    }
+
+
+}
+
+
+
 @media (max-width: 640px) {
 
     .content {
-        .main_text{
-        margin-left:20px;
-        }
-        .button1{
+        .main_text {
             margin-left: 20px;
         }
+
+        .button1 {
+            margin-left: 20px;
+        }
+
         .button2 {
-            margin-left: 169px;  }
-}
+            margin-left: 169px;
+        }
+    }
 }
 
 @media (max-width: 565px) {
@@ -83,11 +310,162 @@
     }
 
     .menu .dropup-content a:nth-child(1) {
-        display: flex; 
+        display: flex;
+    }
+
+
+    .Content {    
+        .Content-text {
+            font-size: 25px;
+        }
+    }
+
+
+    .Button1 {
+        margin-top: 50px;
+        width: 100px;
+        height: 45px;
+        font-size: 12px;
+
+    }
+    
+    
+    .Button2 {
+        margin-top: 50px;
+        width: 150px;
+        height: 45px;
+        font-size: 12px;
+
+    }
+
+
+
+    .Photo {
+        margin-top: 50px;
+
+        .photo1 {
+            width: 320px;
+            height: 200px;
+        }
+    }
+
+    .Text-Content {
+        margin-top: 30px;
+        font-size: 20px;
+
+    }
+
+    .Text-Content2 {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .Photo-Content {
+        .photo1 {
+            margin-top: 60px;
+            width: 217px;
+            height: 149px;
+        }
+    }
+
+    .Photo-Content2 {
+        .photo1 {
+            margin-top: 30px;
+            width: 217px;
+            height: 149px;
+
+        }
+    }
+
+    .Button3 {
+        margin-top: 50px;
+        width: 120px;
+        height: 45px;
+        font-size: 11px;
+
+    }
+    
+    
+    .Button4 {
+        margin-top: 50px;
+        width: 150px;
+        height: 45px;
+        font-size: 11px;
+
+    }
+
+    .Footer {
+
+
+        .content-footer {
+            margin-left: 50px;
+
+            .title-footer {
+
+                font-size: 10px;
+            }
+
+            .text-footer {
+                font-size: 10px;
+
+            }
+
+            .photos {
+                width: 60px;
+                height: 15px;
+            }
+        }
+        .line {
+            margin-top: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+    
+        }
+
+        .main-footer {
+            margin-top: 20px;
+            margin-bottom: 20px;    
+            .country {
+                font-size: 8px;
+                margin-left: 50px;
+            }
+    
+            .year {
+                font-size: 8px;
+                margin-right: 50px;
+            }
+        }
+
+    }
+
+}
+
+
+
+@media (max-width: 398px) {
+    .Content2 {
+        margin-top: 60px;
+
+        .title {
+            font-size: 22px;
+
+        }
+    
+        .content2 {
+            margin-left: 20px;
+
+            .text {
+                margin-left: 10px;
+                margin-right: 10px;
+
+                font-size: 12px;
+
+            }
+        }
     }
 }
 
-/* Медіа-запит для ширини до 385px */
+
 @media (max-width: 385px) {
     .menu .search-box {
         width: 150px;
