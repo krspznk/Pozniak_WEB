@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(img/first.jpg);
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+h1, h2, label, legend, div, table {
+    font-family: 'Comfortaa';
+}
+
+.b-header {
+    text-align: center;
+    background-image: url(img/second.jpg);
+    margin-top: -22px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    opacity: 0.8;
+}
+
+.b-div-zadanie {
+    font-size: medium;
+    padding: 10px;
+}
+
+.b-button {
+    background-color: rgb(255, 191, 212);
+    border: none;
+    color: white;
+    padding: 15px;
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-out;
+}
+
+.b-button:hover {
+    color: rgb(238, 16, 90);
+    background-color: rgb(255, 255, 255);
+
+}
