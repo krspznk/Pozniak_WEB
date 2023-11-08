@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Лабораторна робота №2. JS</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="b-header">
+        <h1>Лабораторна робота №2. Javascript</h1>
+        <h2>Виконала студентка групи КН-32 Позняк Христина</h2>
+    </header>
+    <ul class="menu-main">
+        <li><a href="../lab1_js/index.html">Лабораторна робота №1</a></li>
+        <li><a href="">Лабораторна робота №2</a></li>
+        <li><a href="">Лабораторна робота №3</a></li>
+        <li><a href="">Лабораторна робота №4</a></li>
+    </ul>
+    <h2>Завдання на лабораторну роботу</h2>
+    <div class="b-div-zadanie">
+        На Вашій сторінці є малюнок. При наведенні миші на цей малюнок він повинен змінитися.
+        Коли Ви відведете мишку в сторону, малюнок має набути початкового вигляду.
+        <br>
+        <br>
+        Ввести № телефона(поле вводу) і назву міста (з клавіатури). Якщо введено місто, яке немає в списку,
+        то повідомте про це користувача, інакше вивести № телефона, поставивши перед ним код міста.
+        <img class="cat" src="./img/cat.jpg" onmouseover="changeImage()" onmouseout="restoreImage()">
+    </div>
+    
+        <input type="text" id="phoneNumber" value="+380" maxlength="13" minlength="13" >
+        <input type="text" id="city" placeholder="Введіть назву міста" >
+        <button class="b-button" type="button" onclick="checkCity()">
+            Перевірити місто та телефон
+        </button>
+
+    <div id="result"></div>
+
+</body>
+
+</html>
