@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Лабораторна робота №2. JS</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="b-header">
+        <h1>Лабораторна робота №3. Javascript</h1>
+        <h2>Виконала студентка групи КН-32 Позняк Христина</h2>
+    </header>
+    <ul class="menu-main">
+        <li><a href="../lab1_js/index.html">Лабораторна робота №1</a></li>
+        <li><a href="../lab2_js/index.html">Лабораторна робота №2</a></li>
+        <li><a href="../lab3_js/index.html">Лабораторна робота №3</a></li>
+        <li><a href="../lab4_js/index.html">Лабораторна робота №4</a></li>
+    </ul>
+    <h2>Завдання на лабораторну роботу</h2>
+    <div class="b-div-zadanie">
+        У поле вводу вводиться країна і натискається Enter. При натисканні на Enter зробіть так, щоб введені країни
+        записувалися в абзац під поле вводу через кому. Тобто по кожному натискання Enter в абзац будуть додаватися все
+        нові і нові країни.
+        <br>
+        <br>
+        Дана таблиця. При натисканні на комірку в ній з'являється поле введення з вмістом цієї комірки і кнопка
+        "зберегти". Можна редагувати текст в полі, зберегти - і текст комірки зміниться на той, що був в полі введення.
+    </div>
+
+    <input style= "margin-left: 10px;"type="text" id="countriField" onkeydown="addCountry(this)" />
+    <div id="countryRezult"></div>
+    <table>
+        <tr>
+            <td contenteditable="true" onclick="editCell(this)">Cell 1</td>
+            <td contenteditable="true" onclick="editCell(this)">Cell 2</td>
+            <td contenteditable="true" onclick="editCell(this)">Cell 3</td>
+        </tr>
+        <tr>
+            <td contenteditable="true" onclick="editCell(this)">Cell 4</td>
+            <td contenteditable="true" onclick="editCell(this)">Cell 5</td>
+            <td contenteditable="true" onclick="editCell(this)">Cell 6</td>
+        </tr>
+    </table>
+    <button class="b-button" id="saveButton" onclick="saveCell()">Зберегти</button>
+    
+    <div id="result"></div>
+
+</body>
+
+</html>

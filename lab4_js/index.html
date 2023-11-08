@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Лабораторна робота №2. JS</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="b-header">
+        <h1>Лабораторна робота №4. Javascript</h1>
+        <h2>Виконала студентка групи КН-32 Позняк Христина</h2>
+    </header>
+    <ul class="menu-main">
+        <li><a href="../lab1_js/index.html">Лабораторна робота №1</a></li>
+        <li><a href="../lab2_js/index.html">Лабораторна робота №2</a></li>
+        <li><a href="../lab3_js/index.html">Лабораторна робота №3</a></li>
+        <li><a href="../lab4_js/index.html">Лабораторна робота №4</a></li>
+    </ul>
+    <h2>Завдання на лабораторну роботу</h2>
+    <div class="b-div-zadanie">
+        Розробити сторінку зі скриптом, в якому створюється об'єкт
+        Холодильник з 4-ма властивостями: колір, марка, модель, ціна. Створити масив
+        з декількома об‘єктами даного класу. Вивести після натискання кнопки всі
+        значення властивостей на екран у вигляді таблиці.
+        <br>
+    </div>
+
+    <h1>Холодильники</h1>
+    <button class="b-button" onclick="displayRefrigerators()">Показати холодильники</button>
+    <table style ="display: none;" id="refrigeratorTable">
+        <tr>
+            <th>Колір</th>
+            <th>Марка</th>
+            <th>Модель</th>
+            <th>Ціна</th>
+        </tr>
+    </table>
+    
+    <div id="result"></div>
+
+</body>
+
+</html>

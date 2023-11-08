@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(img/first.jpg);
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+h1,
+h2,
+label,
+legend,
+div,
+table {
+    font-family: 'Comfortaa';
+}
+
+.b-header {
+    text-align: center;
+    background-image: url(img/second.jpg);
+    margin-top: -22px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    opacity: 0.8;
+    font-size: medium;
+
+}
+
+.b-div-zadanie {
+    font-size: small;
+    padding: 10px;
+    display: flex;
+}
+
+.b-button {
+
+    background-color: rgb(255, 191, 212);
+    border: none;
+    color: white;
+    padding: 15px;
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-out;
+    display: flex;
+}
+
+.b-button:hover {
+    color: rgb(238, 16, 90);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.menu-main {
+    list-style: none;
+    margin: 0px 0 5px;
+    padding: 5px 0 5px;
+    text-align: center;
+}
+
+.menu-main li {
+    display: inline-block;
+}
+
+.menu-main li:after {
+    content: "|";
+    color: #313131;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-main li:last-child:after {
+    content: none;
+}
+
+.menu-main a {
+    text-decoration: none;
+    font-family: 'Comfortaa', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 20px 0 20px;
+    text-transform: uppercase;
+    display: inline - block;
+    transition: color .25;
+    font-size: 10px;
+}
+
+.menu-main a,
+.menu-main a:visited {
+    color: #2e2d2e;
+}
+
+.menu-main a:hover {
+    color: #67067a;
+}
+
+.menu-main a:before,
+.menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    Left: 50%;
+    background: #67067a;
+    transition: .8s;
+}
+
+.menu-main a:hover:before,
+.menu-main .current:before {
+    left: 0;
+}
+
+.menu-main a:hover:after,
+.menu-main .current:after {
+    right: 0;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+
+
+@media (max-width : 550px) {
+    .menu-main {
+        padding-top: 0;
+    }
+
+    .menu-main li {
+        display: block;
+    }
+
+    .menu-main li:after {
+        content: none;
+    }
+
+    .menu-main a {
+        padding: 25px 0 20px;
+        margin: 0 30px;
+    }
+}
