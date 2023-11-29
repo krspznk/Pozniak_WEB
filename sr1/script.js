@@ -1,5 +1,5 @@
 function fetchData() {
-    fetch('https://api.jsonbin.io/v3/qs/65547a3e0574da7622c6dee1')
+    fetch('https://api.jsonbin.io/v3/qs/6566f4280574da7622cdb07c')
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

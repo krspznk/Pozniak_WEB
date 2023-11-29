@@ -1,12 +1,12 @@
 // Функція, яка змінює малюнок при наведенні миші
 function changeImage() {
-    var image = document.querySelector('.cat'); // Використовуємо клас "cat"
-    image.src = './img/cat2.jpg'; // Шлях до нового малюнка
+    var image = document.querySelector('.cat'); 
+    image.src = './img/cat2.jpg'; 
 }
 // Функція, яка відновлює початковий вигляд малюнка
 function restoreImage() {
-    var image = document.querySelector('.cat'); // Використовуємо клас "cat"
-    image.src = './img/cat.jpg'; // Шлях до початкового малюнка
+    var image = document.querySelector('.cat'); 
+    image.src = './img/cat.jpg';
 }
 
 // Функція для перевірки міста та виведення результату

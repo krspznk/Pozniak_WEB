@@ -1,0 +1,68 @@
+.content {
+    width: 100%;
+  }
+  
+  .inputElements {
+    display: flex;
+  }
+  
+  .inputBlock {
+    display: flex;
+    border: 1px black solid;
+  }
+
+.button_my {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db; 
+  border-radius: 5px;
+  color: #3498db; 
+  background-color: #ffffff; 
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button_my:hover {
+  background-color: #3498db; 
+  color: #ffffff; 
+  border-color: #ffffff; 
+}
+
+
+/* Стиль таблицы */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Стиль заголовков таблицы */
+.table th {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #3498db;
+}
+
+/* Стиль ячеек таблицы */
+.table td {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+}
+
+/* Стиль для ячеек с разными цветами в зависимости от условия */
+.table .inRegion {
+  background-color: #c1f0c1;
+}
+
+.table .notInRegion {
+  background-color: #f0c1c1;
+}
